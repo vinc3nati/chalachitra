@@ -1,7 +1,22 @@
-@import url("https://shinobi-ui.netlify.app/component.25132a91.css");
-.movie-container {
+.movie-container,
+.watchlist-container,
+.genre {
   display: flex;
   gap: 1.5rem;
   flex-wrap: wrap;
   align-items: center;
+  justify-content: center;
+}
+
+.genre-chip {
+  padding: 1rem 1.5rem;
+  cursor: pointer;
+  width: fit-content;
+  border: 1px solid var(--color-primary);
+  border-radius: 100px;
+}
+
+.clear {
+  background-color: var(--color-primary);
+  color: var(--color-tertiary);
 }
